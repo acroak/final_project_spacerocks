@@ -70,7 +70,10 @@ class GamePieces:
                 * other - instance of another sprite to check distance against
         """
         distance = self.positionTuple.distance_to(other.positionTuple)
-        return distance < self.radius + other.radius
+        print("distance",distance)
+        print("ship radius", self.radius)
+        print("asteroid radius", other.radius)
+        return distance < (self.radius -10) + (other.radius -10)
 
 class Spaceship(GamePieces):
     ''' 

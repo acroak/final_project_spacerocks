@@ -9,8 +9,21 @@ import pygame
 from game import AsteroidGame
 
 def main():
-    asteroids = AsteroidGame()
-    asteroids.game_loop() 
+    try:
+        asteroids = AsteroidGame()
+        asteroids.game_loop() 
+    except ValueError as valErr:
+        print(valErr, "Something Math'd wrong")
+
+    except TypeError as typeErr:
+        print(typeErr, "oops, please contact your adminstrator")
+
+    except KeyboardInterrupt as interupt:
+        print("\n", "The user has force quit the program")
+
+    except OSError as osErr:
+        print(osErr, "Something has gone wrong, please check external USB devices and connections")
+        
 
           
 

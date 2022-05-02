@@ -49,3 +49,4 @@ Ability to choose a difficulty level (getting 10 asteroids to spawn @ the start 
 A better restart menu<br/>
 Ability to use "esc" button to leave game<br/>
 Ability to use "enter" button to start the game<br/>
+Make asteroid Sprites rotate through space as they move<br/>
