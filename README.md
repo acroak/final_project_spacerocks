@@ -33,19 +33,19 @@ Ship Explosion Audio: https://freesound.org/people/JapanYoshiTheGamer/sounds/361
 
 ### Reference
 https://www.pygame.org/docs/<br/>
-The Vectors took some head scratching to eventually understand<br/>
+The Vectors took some head scratching to eventually understand<br/><br/>
 https://www.pygame.org/docs/ref/math.html#pygame.math.Vector2<br/>
-http://cs1110.cs.cornell.edu/docs/geom_vector2.html<br/>  
+http://cs1110.cs.cornell.edu/docs/geom_vector2.html<br/><br/>  
 https://www.geeksforgeeks.org/how-to-create-buttons-in-a-game-using-pygame/<br/>  
 https://realpython.com/asteroids-game-python/<br/>  
 https://www.pygame.org/project/713<br/> 
 
 ### Things to add on
-*Implimenting a life bar/ number of lives before game over
-*Pointing system 
-*Spaceship inivincibility on respawn at center coordinate
-*Adding sprite animations to Spaceship move() and collision events
-*Ability to choose a difficulty level (getting 10 asteroids to spawn @ the start vs 6) or continously increasing the number of asteroids spawned based on a timer.
-*A better restart menu
-*Ability to use "esc" button to leave game
-*Ability to use "enter" button to start the game
+Implimenting a life bar/ number of lives before game over<br/>
+Pointing system<br/>
+Spaceship inivincibility on respawn at center coordinate<br/>
+Adding sprite animations to Spaceship move() and collision events<br/>
+Ability to choose a difficulty level (getting 10 asteroids to spawn @ the start vs 6) or continously increasing the number of asteroids spawned based on a timer.<br/>
+A better restart menu<br/>
+Ability to use "esc" button to leave game<br/>
+Ability to use "enter" button to start the game<br/>
